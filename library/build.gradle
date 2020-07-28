@@ -28,7 +28,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //okHttp
-    implementation("com.squareup.okhttp3:okhttp:4.8.0")
+    api("com.squareup.okhttp3:okhttp:4.8.0")
     //okHttp log
     implementation 'com.squareup.okhttp3:logging-interceptor:4.8.0'
     //retrofit
