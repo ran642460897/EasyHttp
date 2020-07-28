@@ -18,5 +18,5 @@ public abstract class ResponseCodeInterceptor implements Interceptor {
         onResponse(response.code());
         return response;
     }
-    abstract void onResponse(int code);
+    public abstract void onResponse(int code);
 }
